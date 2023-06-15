@@ -1,3 +1,5 @@
+# Exemplo do que colocar no input: C:\Users\jadso\Desktop\teste.txt
+
 import os
 from tkinter import *
 
