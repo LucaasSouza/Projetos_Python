@@ -1,5 +1,6 @@
 from tkinter import *
 
+dados = ['hello', 'world', 'ola', 'mundo']
 class Application:
     def __init__(self, master=None):
         self.frameTitle = Frame(master)
