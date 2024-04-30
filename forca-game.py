@@ -3,7 +3,7 @@
 import random
 
 names = ('Hello', 'World', 'Hello world', 'Python', 'Javascript', 'HyperText Markup Language', 'Cascading Style Sheet', 'Structured Query Language', 'Hypertext Preprocessor', 'Java', 'Ruby', 'C', 'C sharp', 'C plus plus', 'Sintaxe', 'Functions', 'Methods')
-message = names[random.randint(0, len(names))] # Mensagem que vai ser descoberta
+message = names[random.randint(0, len(names) - 1)] # Mensagem que vai ser descoberta
 placeHolder = '' # Faz o replace dos caracteres da string acima para '_'
 tentativas = 6 # Quantidade de tentativas que o jogador vai ter
 
